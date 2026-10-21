@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Videos</title>
+        <link rel="stylesheet" href="video.css">
+        <link rel="icon" type="image/jpg" href="pictures\favi.jpg">
+    </head>
+    <body>
+         <!-- Header -->
+    <header class="header">
+        <h1>Welcome to the Video Collection</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="galleria.html">Gallery</a>
+        <a href="music.html">Music</a>
+        <a href="video.html" class="active">Videos</a>
+        <a href="index.html">Loggin</a>
+    </nav>
+
+    <!-- Main layout -->
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Explore</h2>
+            <a href="#nature">Nature</a>
+            <a href="#animals">Animals</a>
+            <a href="#cars">Cars</a>
+            <a href="#cities">Cities</a>
+        </aside>
+
+        <!-- Video content -->
+        <main class="content">
+            <h2>My Video Collection</h2>
+
+            <div class="video-grid">
+
+                <section class="video-card" id="nature">
+                    <h3>Beautiful Nature</h3>
+                    <video controls preload="metadata">
+                        <source src="videos/nature.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                    <p>Enjoy beautiful scenes from nature.</p>
+                </section>
+
+                <section class="video-card" id="animals">
+                    <h3>Wild Animals</h3>
+                    <video controls preload="metadata">
+                        <source src="videos/animals.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                    <p>Discover wildlife in its natural habitat.</p>
+                </section>
+
+                <section class="video-card" id="cars">
+                    <h3>Luxury Cars</h3>
+                    <video controls preload="metadata">
+                        <source src="videos/cars.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                    <p>Explore exciting cars and automobiles.</p>
+                </section>
+
+                <section class="video-card" id="cities">
+                    <h3>City Life</h3>
+                    <video controls preload="metadata">
+                        <source src="videos/cities.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                    <p>Experience life in busy cities.</p>
+                </section>
+
+            </div>
+        </main>
+
+    </div>
+    </body>
+</html>
